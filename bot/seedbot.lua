@@ -269,19 +269,13 @@ function create_config( )
     "trivia",
     "vote"
     },
-    sudo_users = {212990316},--Sudo users
+    sudo_users = {134708484},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[avast V6.3 - Open Source
-    http://bit.ly/1SjFZ2e
-An advance Administration bot based on yagop/telegram-bot 
-
-https://github.com/Arashalone/avast-BOT-V6.3/
-
-Developed and avast team owner: @arashnomiri
-
-Our channel:
-@avast_team
+    about_text = [[admin
+    @kalilinuxnew
+    channel
+    @kalilinuxnews
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -355,7 +349,7 @@ Realm Commands:
 » Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
 
 » Only owner can use res,setowner,promote,demote and log commands
-
+by @kalilinuxnew
 ]],
     help_text = [[
 🤖 ليست دستورات مدیریت گروه :
@@ -446,7 +440,7 @@ Realm Commands:
 ⚠️  شما ميتوانيد از ! و / استفاده کنيد. 
 ⚠️  تنها مديران ميتوانند ربات ادد کنند. 
 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
-
+by @kalilinuxnew
 ]]
   }
   serialize_to_file(config, './data/config.lua')
